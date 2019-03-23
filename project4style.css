@@ -1,0 +1,103 @@
+/* Project 4 Style Sheet | Ryan Lasher */
+
+/******************** Reset ********************/
+
+* {
+    box-sizing: border-box;
+}
+
+::selection {
+    background: #f40000;
+    color: #fff;
+}
+
+img::selection {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/******************** Reset End ********************/
+
+/******************** Global ********************/
+
+body {
+    background-color: #999999;
+    font-family: Verdana, Arial, sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    color: #CC3300;
+    text-align: center;
+}
+
+h2 {
+    color: #333333;
+}
+
+h4 i {
+    color: gold;
+}
+
+a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    background: white;
+    color: red;
+}
+
+ul li {
+    line-height: 1.5;
+    list-style-image: url('images/bullet.gif');
+}
+
+/******************** Global End ********************/
+
+/* ****** Home Page Code ****** */
+
+.studytip::first-line {
+    font-variant: small-caps;
+    font-size: 18pt;
+    text-decoration: underline;
+    color: #660000;
+}
+
+.notice {
+    background: ivory;
+    border: 3px inset #CC3300;
+    color: brown;
+    font-size: 10pt;
+    left: 20px;
+    position: relative;
+    top: 10px;
+    width: 230px;
+}
+
+.notice p {
+    margin: 15px;
+}
+
+/* ****** Home Page Code End ****** */
+
+/******************** Header ********************/
+
+/******************** Header End ********************/
+
+/******************** Main ********************/
+
+/******************** Main End ********************/
+
+/******************** Article ********************/
+
+/******************** Article End ********************/
+
+/******************** Aside ********************/
+
+/******************** Aside End ********************/
+
+/******************** Footer ********************/
+
+/******************** Footer End ********************/
